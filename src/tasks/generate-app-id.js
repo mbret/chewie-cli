@@ -23,6 +23,8 @@ class Task {
       obj = {id: uuid.v4(), name: Moniker.generator([Moniker.adjective, Moniker.noun]).choose()}
       console.log(`.system does not exist, creating a new one with`, obj)
       jsonfile.writeFileSync(file, obj)
+    } else {
+      console.log(`.system already exist!`)
     }
   }
 }
