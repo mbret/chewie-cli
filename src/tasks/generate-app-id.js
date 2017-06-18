@@ -24,8 +24,6 @@ class Task {
       console.log(`.system does not exist, creating a new one with`, obj)
       jsonfile.writeFileSync(file, obj)
     }
-
-    return obj
   }
 }
 

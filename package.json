@@ -1,10 +1,10 @@
 {
-  "name": "my-buddy-cli",
+  "name": "chewie-cli",
   "version": "1.0.0",
   "preferGlobal": true,
   "description": "",
   "bin": {
-    "chewie": "bin/index.js"
+    "chewie": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
