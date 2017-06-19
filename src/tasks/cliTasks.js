@@ -24,6 +24,15 @@ var TASKS = [
     module: './tasks/generate-app-id'
   },
   {
+    title: 'generate-user-settings',
+    name: 'generate-user-settings',
+    summary: 'Generate user settings template',
+    args: {
+
+    },
+    module: './tasks/generate-user-settings'
+  },
+  {
     title: 'create',
     name: 'create',
     summary: 'Create a new project in the specified PATH',
